@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yomi Olowu | DevOps & Cloud Engineer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">Yomi.dev</div>
+  <nav>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Yomi Olowu</h1>
+    <p class="title">DevOps & Cloud Engineer</p>
+    <p class="tagline">Designing reliable, scalable, and secure cloud infrastructure.</p>
+
+    <div class="hero-buttons">
+      <button onclick="scrollToSection('contact')">Contact Me</button>
+      <button class="outline" onclick="scrollToSection('projects')">View Projects</button>
+    </div>
+  </div>
+
+  <div class="hero-photo">
+    <img src="profile.jpg" alt="Yomi Olowu">
+  </div>
+</section>
+
+<!-- SUMMARY -->
+<section class="card">
+  <h2>Professional Summary</h2>
+  <p>
+    DevOps Engineer with 5+ years of experience automating, deploying, and scaling cloud infrastructure.
+    Strong background in AWS, Kubernetes, CI/CD automation, and Infrastructure as Code.
+    Proven ability to deliver secure, cost-efficient, and highly available cloud platforms for SaaS and enterprise environments.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="card">
+  <h2>Core Skills</h2>
+  <div class="skills-grid">
+    <span>AWS & Cloud Infrastructure</span>
+    <span>Terraform & CloudFormation</span>
+    <span>Docker & Kubernetes</span>
+    <span>GitHub Actions, Jenkins, GitLab CI</span>
+    <span>Linux, Bash, Python</span>
+    <span>Prometheus, Grafana, ELK Stack</span>
+    <span>Ansible & Configuration Management</span>
+    <span>Networking & Security Best Practices</span>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="card">
+  <h2>Professional Experience</h2>
+
+  <div class="timeline-item">
+    <h3>DevOps / Cloud Engineer</h3>
+    <span>Accede · 2020 – Present</span>
+    <ul>
+      <li>Automated AWS infrastructure using Terraform and CloudFormation, reducing environment setup time by 65%.</li>
+      <li>Built CI/CD pipelines enabling faster and reliable deployments.</li>
+      <li>Deployed and managed Kubernetes workloads for scalable microservices.</li>
+      <li>Implemented monitoring with Prometheus and Grafana, improving incident response time by 40%.</li>
+      <li>Centralized logs with ELK stack to improve troubleshooting efficiency.</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <h3>Networking Associate</h3>
+    <span>Accede · 2014 – 2016</span>
+    <ul>
+      <li>Improved enterprise network reliability and troubleshooting processes.</li>
+      <li>Supported LAN infrastructure and enterprise system integrations.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card">
+  <h2>Key Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Cloud Infrastructure Automation</h3>
+      <p>Automated AWS environments using Terraform, reducing manual errors by 70%.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Kubernetes Adoption</h3>
+      <p>Migrated workloads to Kubernetes to improve scalability and deployment consistency.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>CI/CD Enablement</h3>
+      <p>Reduced release cycles from days to hours using automated pipelines.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="card">
+  <h2>Education & Certifications</h2>
+  <ul>
+    <li>Professional Training in IT, Networking, and Cloud Computing</li>
+    <li>AWS Solutions Architect – Associate (Hands-on Equivalent Experience)</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card contact">
+  <h2>Contact</h2>
+  <p>Email: <span id="email">yomi@example.com</span> <button onclick="copyEmail()">Copy</button></p>
+  <p>GitHub: <a href="https://github.com/yomiolowu" target="_blank">github.com/yomiolowu</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/yomiolowu" target="_blank">linkedin.com/in/yomiolowu</a></p>
+</section>
+
+<footer>
+  © 2026 Yomi Olowu · DevOps & Cloud Engineer
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
